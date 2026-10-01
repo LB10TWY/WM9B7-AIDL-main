@@ -1,0 +1,57 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.venv*/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.zip
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Output
+Week_4/assets/benchmark_results
+Week_3/*_Answer_Sheet.ipynb
+Week_3/results/
+Week_2/*_Answer_Sheet.ipynb
+Week_2/data/
+Week_1/*_Answer_Sheet.ipynb
+Week_1/images/
+Project_0/notebooks/*_Answer_Sheet.ipynb
+*.pth
+
+# Others
+Project_1/
+Project_2/
+Project_3/
+
+# Google Cloud credentials
+*.json
+!requirements.txt

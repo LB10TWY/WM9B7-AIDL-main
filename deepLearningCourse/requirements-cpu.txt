@@ -1,0 +1,4 @@
+# CPU pathway: installs all shared packages plus PyTorch from the default index.
+# This is the recommended pathway for students who do not need NVIDIA GPU acceleration.
+
+-r requirements.txt

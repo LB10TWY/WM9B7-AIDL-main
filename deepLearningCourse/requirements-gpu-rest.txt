@@ -1,0 +1,4 @@
+# GPU pathway: install this AFTER requirements-gpu-cu128.txt.
+# It installs the shared non-PyTorch packages only.
+
+-r requirements.txt

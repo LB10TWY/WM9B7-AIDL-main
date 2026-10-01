@@ -1,0 +1,39 @@
+name: dl-module-cpu
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.8
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - pillow
+  - requests
+  - tqdm
+  - plotly
+  - openpyxl
+  - pip
+  - pip:
+      - transformers
+      - accelerate
+      - datasets
+      - sentencepiece
+      - sentence-transformers
+      - safetensors
+      - langchain
+      - langchain-community
+      - faiss-cpu
+      - pypdf

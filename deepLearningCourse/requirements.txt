@@ -1,0 +1,51 @@
+# Base packages shared by both CPU and GPU pathways for the Deep Learning module.
+# Install with:
+#   python -m pip install -r .\deepLearningCourse\requirements.txt
+# or as part of requirements-cpu.txt / requirements-gpu-rest.txt.
+
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+jupyterlab
+notebook
+ipykernel
+ipywidgets
+pillow
+requests
+tqdm
+plotly
+openpyxl
+opencv-python
+
+# Deep learning (CPU builds from PyPI)
+torch
+torchvision
+torchaudio
+
+# Transformer / LLM stack
+transformers
+accelerate
+datasets
+sentencepiece
+sentence-transformers
+safetensors
+peft
+
+# Lightweight local RAG stack
+langchain
+langchain-community
+langchain-huggingface
+langchain-chroma
+faiss-cpu
+pypdf
+unstructured
+sentence-transformers
+rank-bm25
+
+# Classic notebook convenience
+requests
+beautifulsoup4
+python-dotenv
